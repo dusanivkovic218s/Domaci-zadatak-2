@@ -1,0 +1,39 @@
+/* myStyle.css */
+*{
+    margin: 0;
+    padding: 0;
+}
+table, th, td {
+    border: 2px solid green;
+    border-collapse: collapse;
+  }
+  #sredina
+  {
+      background-color: rgb(52, 180, 52);
+      color: red;
+  }
+  #ime
+  {
+      background-color: rgb(62, 122, 190);
+      text-align: center;
+  }
+  #prezime{
+    background-color: yellow;
+    text-align: right;
+  }
+  #jmbg{
+      background-color: rgb(71, 170, 71);
+      text-align: left;
+  }
+ 
+  form{
+      width: 500px;
+      margin-left: 350px;
+      border-collapse: collapse;
+    border: 2px solid green;
+  }
+  .razmak{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }

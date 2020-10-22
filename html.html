@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang = "en-US">
+ <head>
+ <meta charset = "UTF-8">
+ <title>Domaci2</title>
+ <link rel = "stylesheet"
+   type = "text/css"
+   href = "myStyle.css" />
+ </head>
+ <body>
+    <table>
+        <tr>
+          <th id="ime">Ime</th>
+          <th id="prezime">Prezime</th>
+          <th id="jmbg">JMBG</th>
+        </tr>
+        <tr>
+          <td id="ime">Marko</td>
+          <td id="prezime">Markovic</td>
+          <td id="jmbg">13059952231123</td>
+        </tr>
+        <tr id="sredina" >
+          <td>Darko</td>
+          <td>Petrovic</td>
+          <td id="jmbg">22079952231123</td>
+        </tr>
+        <tr>
+            <td id="ime">Stefan</td>
+            <td id="prezime">Milicic</td>
+            <td id="jmbg">15119832231423</td>
+          </tr>
+      </table>
+      <div class="okvir">
+      <form action="1.php" method="POST">
+          <div class="razmak">
+        <label for="name">Ime</label>
+        <input type="text" name="name" placeholder="" minlength="3"> <br>
+    </div>
+        <div class="razmak">
+        <label for="">Prezime</label>
+        <input type="text" name="lastname" placeholder="" minlength="3"> <br>
+    </div>
+        <div class="razmak">
+        <label for="JMBG">JMBG</label>
+        <input type="number" name="JMBG" placeholder="" minlength="3"> <br>
+    </div>
+        
+        <div class="razmak">
+        <input type="submit" value="Potvrdi">
+    </div>
+
+    </form>
+</div>
+ </body>
+</html
